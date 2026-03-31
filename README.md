@@ -18,13 +18,22 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ##### AI GPTs used
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1.Opened Arduino IDE and installed the ESP32 board support if needed.
+
+Selected the correct board in Tools > Board.
+
+Selected the correct COM port in Tools > Port.
+
+Connected GPIO 0 to GND to enable flashing mode before uploading.
+
+Checked that the power supply was set to 5V, since some ESP32-CAM boards need 5V to upload reliably..
+
+Clicked Upload.
 
 ## Problems and Solutions
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
+Failed to connect to ESP32 / Timed out waiting for packet header. Nothing appears in Serial Monitor.
 
-**Problem:** E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
-Camera init failed with error 0x105
+
 **Solution:**
 
 ### Example Problem
