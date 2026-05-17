@@ -1,8 +1,9 @@
 # Cybersecurity : CSN150
-Project: ESP32 XXXXXXXX
+Project: ESP32-CAM Software Motion Detection Security Monitor
+
 
 ## Purpose
-Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner". 
+Establish a software based motion detection system utilizing a low end IoT device, in this case it was an ESP32-CAM.
 
 ## Equipment
 * [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
@@ -15,7 +16,7 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 
 ##### Other Links: 
 
-##### AI GPTs used
+##### AI GPTs used: 
 
 ## Steps I followed
 1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
@@ -23,12 +24,9 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
-**Problem:** E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
-Camera init failed with error 0x105
-**Solution:**
 
 ### Example Problem
-**Problem:** Arduino code will not load on ESP32 Cam.
-**Solution:** Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
+**Problem:** ESP32-CAM was unsuccessful when trying to connect to network. 
+**Solution:** Checked my network settings and switched off of the 5Ghz Wi-Fi connection onto the 2.4Ghz. Hard reset ESP32-CAM and was successfully connected to the network
 
 ## Final Report
